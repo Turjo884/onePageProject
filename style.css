@@ -599,6 +599,14 @@ letter-spacing: .05rem;
         font-size: 6rem;
     }
 
+    /*Start Hero Section*/
+
+    #hero h1{
+        font-size: 7rem;
+    }
+
+    /*End Hero Section*/
+
 }
 
 /*End Media Quary for Tablet*/
