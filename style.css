@@ -607,6 +607,16 @@ letter-spacing: .05rem;
 
     /*End Hero Section*/
 
+    
+    /*Start Service Section*/
+
+    #services .service-bottom .service-item{
+        flex-basis: 45%;
+        margin: 2.5%;
+    }
+
+    /*End Service Section*/
+
 }
 
 /*End Media Quary for Tablet*/
