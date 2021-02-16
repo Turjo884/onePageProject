@@ -645,6 +645,48 @@ letter-spacing: .05rem;
 
     /*End Project Section*/
 
+
+
+    /*Start Contact Section*/
+
+    #contact .contact-container{
+        flex-direction: column;
+        padding: 100px 0;
+        align-items: center;
+        justify-content: center;
+        min-height: 20vh;
+    }
+
+    #contact .contact-items{
+        width: 100%;
+        display: inline;
+        flex-direction: row;
+        margin: 0;
+        padding: 20px;
+    }
+
+
+    #contact .contact-item{
+        margin: 20px;
+        flex-direction: row;
+    }
+
+    #contact .contact-item .icon{
+        height: 100px;
+        width: 100px;
+    }
+
+    #coantact .contact-item .icon-img{
+        object-fit: contain;
+    }
+
+    #contact .contact-item .contact-info{
+        width: 100%;
+        text-align: center;
+    }
+
+    /*End Contact Section*/
+
 }
 
 /*End Media Quary for Tablet*/
