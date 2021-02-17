@@ -617,12 +617,11 @@ letter-spacing: .05rem;
 
     /*End Service Section*/
 
+    
+
 
     /*Start Project Section*/
 
-    #projects .project-item:nth-child(even){
-        flex-direction: row-reverse;
-    }
 
     #projects .project-item{
         flex-direction: row;
@@ -630,6 +629,10 @@ letter-spacing: .05rem;
         margin: 0;
         width: 90%;
         border-radius: 0;
+    }
+
+    #projects .project-item:nth-child(even){
+        flex-direction: row-reverse;
     }
 
     #projects .all-projects .project-info{
