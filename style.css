@@ -18,6 +18,27 @@ a{
     justify-content: center; 
 }
 
+
+
+/*Start Hero Section*/
+
+#header .brand{
+    font-size: 3rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .2rem;
+    color: white;
+
+}
+
+#header  .brand span{
+    color: crimson;
+}
+
+/*End Hero Section*/
+
+
 /* Start Hero Section */
 #hero{
     background-image: url(../img/wow.jpg);
