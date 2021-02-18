@@ -20,26 +20,29 @@ a{
 
 
 
-/*Start Hero Section*/
+/*Start Header Section*/
 
-#header .brand{
-    font-size: 3rem;
-    font-weight: lighter;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: .2rem;
-    color: white;
-
+#header{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
 }
 
-#header  .brand span{
-    color: crimson;
+
+#header .header-container{
+    min-height: 8vh;
+    background-color: rgba(31, 30, 30, 0.24);
 }
 
-/*End Hero Section*/
+/*End Header Section*/
 
 
 /* Start Hero Section */
+
+
 #hero{
     background-image: url(../img/wow.jpg);
     background-size: cover;
