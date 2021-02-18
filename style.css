@@ -22,6 +22,22 @@ a{
 
 /*Start Header Section*/
 
+
+#header .brand a{
+    font-size: 3rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .2rem;
+    color: white;
+
+}
+
+#header .brand a span{
+    color: crimson;
+}
+
+
 #header{
     position: fixed;
     z-index: 1000;
@@ -31,12 +47,23 @@ a{
     height: auto;
 }
 
-
 #header .header-container{
     min-height: 8vh;
-    background-color: rgba(31, 30, 30, 0.24);
+    background: rgba(31, 30, 30, 0.24);
+    text-align: center;
+    margin: 0 auto;
 }
 
+
+#header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 10px;
+}
 /*End Header Section*/
 
 
