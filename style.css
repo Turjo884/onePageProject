@@ -6,6 +6,7 @@
 html{
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -24,7 +25,7 @@ a{
 
 
 #header .brand a{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: lighter;
     text-transform: uppercase;
     text-align: center;
@@ -309,7 +310,7 @@ a{
 }
 
 #services .service-top{
-    width: 500px;
+    max-width: 500px;
     text-align: center;
     margin: 0 auto;
 }
@@ -750,7 +751,7 @@ letter-spacing: .05rem;
 
 @media only screen and (min-width: 768px){
     #hero .cta{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         padding: 20px 60px;
     }
 
@@ -774,7 +775,7 @@ letter-spacing: .05rem;
     /*Start Hero Section*/
 
     #hero h1{
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     /*End Hero Section*/
@@ -867,6 +868,31 @@ letter-spacing: .05rem;
     #services .service-bottom .service-item{
         flex-basis: 40%;
         height: 300px;
+    }
+
+
+    #header .hamburger{
+        display: none;
+    }
+
+    #header .nav-list ul{
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;
+    }
+
+    #header .nav-list ul li {
+        display: inline-block;
+    }
+
+    #header .nav-list ul li a{
+        font-size:1.8rem;
+    }
+
+    #header .nav-list ul a:after{
+        display: none;
     }
 }
 
