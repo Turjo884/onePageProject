@@ -184,7 +184,7 @@ a{
 
 
 #hero{
-    background-image: url(../img/wow.jpg);
+    background-image: url(img/wow.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
