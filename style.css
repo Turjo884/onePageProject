@@ -885,10 +885,11 @@ letter-spacing: .05rem;
 
     #header .nav-list ul li {
         display: inline-block;
+        justify-content: flex-end;
     }
 
     #header .nav-list ul li a{
-        font-size:1.8rem;
+        font-size: 1.8rem;
     }
 
     #header .nav-list ul a:after{
